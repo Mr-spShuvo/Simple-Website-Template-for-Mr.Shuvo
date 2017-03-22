@@ -1,0 +1,254 @@
+/*********
+* header
+**********/
+header {
+	margin-bottom: 13px;
+}
+
+header h1 {
+	font-size: 48px;
+	text-align: center;
+	margin: -5px;
+}
+
+/***********
+* Main Logo
+************/
+
+#logo {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+#LogoCenter {
+	margin: 9px 0 -9px 0 ;
+	text-align: center;
+}
+
+/************
+* Site Title
+************/
+
+#Mr, #Mr2 {
+	color: #696969;
+}
+
+#Shuvo, #Shuvo2 {
+	color: #ff0066;
+}
+
+
+/***************
+* Navigation Bar
+****************/
+
+nav{
+	text-align: center;
+	margin-top: 15px;
+}
+
+nav li {
+	display: inline;
+	margin: 9px;
+}
+
+nav li a, .button a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #ff0066;
+	background-color: #e3e3e3;
+	padding: 3px 18px;
+	border-radius: 2%;
+}
+
+nav li a:hover, .button a:hover{
+	color: #ffffff;
+	background-color:  #ff0066;
+}
+
+#Selected a{
+	color: black;
+}
+
+/***************
+* hr Style
+****************/
+
+.stylehr hr { 
+	border: 0; 
+	height: 1.9px; 
+	background-image: linear-gradient(to right, 
+		rgba(255, 0, 102, 0), 
+		rgba(255, 0, 102, 0.90), 
+		rgba(255, 0, 102, 0));
+}
+
+/***************
+* body
+****************/
+
+body {
+	width: 100%;
+	font-family: "Ubuntu Light";
+	font-weight: lighter;
+	color: #696969;
+	background-color: #f6f6f6;
+	font-size: 13px;
+}
+
+.cv {
+
+	text-align: center;
+}
+
+.WorkBlock,
+.DairyBlock,
+.CodesBlock,
+.TutorialsBlock {
+	margin-bottom: 10px;
+}
+
+.msg {
+	text-align: left;
+}
+
+/***************
+* Page Heading
+****************/
+.pageTitle a {
+	color: #696969;
+	text-decoration: none;
+}
+
+.pageTitle h2 {
+	margin-top: 13px;
+	margin-bottom: -5px;
+	background-color: #e3e3e3;
+	padding: 0 5px;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+/***************
+* Post Heading
+****************/
+
+.headingTitle a {
+	color: #ff0066;
+	text-decoration: none;
+}
+
+.headingTitle a:hover {
+	color: #696969;
+}
+
+.headingTitle h2 {
+	margin-top: 13px;
+	font-size: 18px;
+	font-weight: lighter;
+
+}
+
+/***************
+* Post Image
+****************/
+
+#subImg1,
+#subImg2,
+#subImg3,
+#subImg4,
+#subImg5,
+#subImg6,
+#subImg7,
+#subImg8 {
+	height: 200px;
+	width: 690px;
+}
+
+.headingImg {
+	text-align: center;
+	margin-bottom: 7px;
+	border: 5px solid #eeeeee; 
+}
+
+/***************
+* Post Paragraph
+****************/
+
+.conentPara {
+	margin-top: 13px;
+
+}
+
+#mainPrgh1,
+#mainPrgh2,
+#mainPrgh3,
+#mainPrgh4,
+#mainPrgh5,
+#mainPrgh6,
+#mainPrgh7,
+#mainPrgh8,
+#mainPrgh9 {
+	background-color: #eeeeee;
+}
+
+/******************
+* Read More Button
+*******************/
+
+.button {
+	margin-top: -13px;
+}
+
+/***************
+* Quotes
+****************/
+
+#quotes {
+	font-style: italic;
+	font-size: 18px;
+	margin: 12px 1px;
+	text-align: right;
+	line-height: 1.3em;
+}
+
+.cite p {
+	margin: -10px 3px ;
+	text-align: right;
+	font-style: italic;
+	font-size: 15px;
+	color: #ff0066;
+}
+
+/***************
+* Footer
+****************/
+
+footer {
+	text-align: center;
+	background-color: #eeeeee;
+	margin-top: -20px;
+}
+
+#ftRimg1, 
+#ftRimg2,
+#ftRimg3,
+#ftRimg4,
+#ftRimg5 {
+	width: 35px;
+	height: 35px;
+	margin: -5px 3px 10px 3px;
+}
+
+#ftRlogo {
+	border-radius: 50%;
+	margin-top: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+/*****************
+* ^_^ The End ^_^
+******************/
